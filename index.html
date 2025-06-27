@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grocery Store</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="responsive.css" />
+  <!-- Bootstrap 5 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+
+  <link rel="stylesheet" type="text/css"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://pixinvent.com/stack-responsive-bootstrap-4-admin-template/app-assets/css/bootstrap-extended.min.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://pixinvent.com/stack-responsive-bootstrap-4-admin-template/app-assets/fonts/simple-line-icons/style.min.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://pixinvent.com/stack-responsive-bootstrap-4-admin-template/app-assets/css/colors.min.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://pixinvent.com/stack-responsive-bootstrap-4-admin-template/app-assets/css/bootstrap.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome 5 CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+  </div>
+
+  <!-- Navbar Section Start -->
+  <header id="full_nav">
+    <div class="header">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="logo" /></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <i class="fas fa-stream navbar-toggler-icon"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#products">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#deals">Deals</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-solid fa-store"></i></a>
+
+              </li>
+            </ul>
+            <div class="header_right">
+              <div class="text-lg-end">
+                <span>Call Us!</span>
+                <span class="phone_no">+91 XXXXXXXXXX</span>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Banner Section -->
+  <section class="home-banner" id="home-banner">
+    <div class="banner_section">
+      <div class="container">
+        <div class="hero-section">
+          <img src="./images/straw.png" alt="" />
+        </div>
+        <div id="carouselExampleCaptions" class="carousel slide carousel-main" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="carousel-caption">
+                <div class="banner-content">
+
+                  <div class="descr">
+                    <h1><b>100% Organic</b></h1>
+                    <h3><b>Fresh & Natural Fare Food</b></h3>
+                  </div>
+                  <p>
+                    "Where Fresh Meets Convenience - Your One-Stop Shop for Quality Groceries!"
+                    "Elevate Your Plate with Our Premium Selection of Farm-Fresh Delights!"
+                  </p>
+                  <a href="#product.html" class="btn main-btn">All Products</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!--==Categiry Card=========================================-->
+  <section id="category">
+
+    <!--box-container---------->
+    <div class="category-container">
+
+      <!--box---------------->
+      <a class="category-box" href='fruits.html'>
+        <img alt="Fruits and Vegetables" src="./images/appleshape.png">
+        <span class="icon-text">Fruits</span>
+      </a>
+      <!--box---------------->
+      <a class="category-box" href='medicine.html'>
+        <img alt="Medicines" src="./images/buety.png">
+        <span class="icon-text">Medicine</span>
+      </a>
+      <!--box---------------->
+      <a class="category-box" href="babycare.html">
+        <img alt="Baby Care Products" src="./images/baby.png">
+        <span class="icon-text">Baby Care</span>
+      </a>
+      <!--box---------------->
+      <a class="category-box" href='stationary.html'>
+        <img alt="Fish" src="./images/stationary.png">
+        <span class="icon-text">Stationary</span>
+      </a>
+      <!--box---------------->
+      <a class="category-box" href='beautycare.html'>
+        <img alt="Beauty Products" src="./images/beauty.png">
+        <span class="icon-text">Beauty</span>
+      </a>
+      <!--box---------------->
+      <a class="category-box" href='gardening.html'>
+        <img alt="Gardening Products" src="./images/graden.png">
+        <span class="icon-text">Gardening</span>
+      </a>
+    </div>
+
+  </section>
+  <!--category-end----------------------------------->
+
+  <!--=========== About Section =============-->
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner item2 cb">
+      <div id="about">
+        <div class="carousel-item active">
+          <img src="./images/banner.jpg" class="active size" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="./images/b1.jpg" class="size" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="./images/b2.jpg" class="size" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="./images/b4.jpg" class="size" alt="..." />
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Product Section -->
+  <div class="parallax">
+    <div class="page-title">Eat Fresh</div>
+  </div>
+
+  <!-- Contents -->
+  <div id="products">
+    <div class="card-container">
+      <div class="main-container">
+        <div class="content-card">
+          <div class="row">
+            <div class="card-con">
+              <img src="./images/gallery/apple.png" class="car-img" alt="" />
+              <h4>Apple</h4>
+              <p>
+                Rs 95
+              </p>
+              <a href="" class="btn">Add to Cart</a>
+            </div>
+            <div class="card-con">
+              <img src="./images/gallery/man.jpeg" height="200px" class="car-img" alt="" />
+              <h4>Mango</h4>
+              <p>
+                Rs 90
+              </p>
+              <a href="" class="btn">Add to Cart</a>
+            </div>
+            <div class="card-con">
+              <img src="./images/gallery/tamato.png" class="car-img" alt="" />
+              <h4>Tomato</h4>
+              <p>
+                Rs 85
+              </p>
+              <a href="" class="btn">Add to Cart</a>
+            </div>
+            <div class="card-con">
+              <img src="./images/gallery/garlic.png" height="190px" class="car-img" alt="" />
+              <h4>Garlic</h4>
+              <p>
+                Rs 75
+              </p>
+              <a href="" class="btn">Add to Cart</a>
+            </div>
+            <div class="card-con">
+              <img src="./images/gallery/patato.png" height="185px" class="car-img" alt="" />
+              <h4>Potato</h4>
+              <p>
+                Rs 50
+              </p>
+              <a href="" class="btn">Add to Cart</a>
+            </div>
+            <div class="card-con">
+              <img src="./images/gallery/onion.png" class="car-img" alt="" />
+              <h4>Onion</h4>
+              <p>
+                Rs 80
+              </p>
+              <a href="" class="btn">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Deal Begin Here -->
+  <div class="parallax">
+    <div class="page-title">DEAL OF THE DAY</div>
+  </div>
+
+  <div id="deals">
+    <div class="deal">
+      <div class="containerdeal">
+        <div class="card">
+          <div class="card-image">
+            <img src="./images/a1.jpg" />
+            <a class="button" href="#">Deal !</a>
+
+          </div>
+          <div class="card-text">
+            <p class="card-meal-type">Baby Care</p>
+            <a href="" class="shp-btn">Shop Now</a>
+
+          </div>
+          <div class="card-price">38% off</div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="./images/a2.jpg" />
+            <a class="button" href="#">Deal !</a>
+
+          </div>
+          <div class="card-text">
+            <p class="card-meal-type">Green Tea</p>
+            <a href="" class="shp-btn">Shop Now</a>
+
+          </div>
+          <div class="card-price">27% off</div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="./images/a4.jpg" />
+            <a class="button" href="#">Deal !</a>
+
+          </div>
+          <div class="card-text">
+            <p class="card-meal-type">Cookies</p>
+            <a href="" class="shp-btn">Shop Now</a>
+
+
+          </div>
+          <div class="card-price">19% off</div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="./images/a3.jpg" />
+            <a class="button" href="#">Deal !</a>
+
+          </div>
+          <div class="card-text">
+            <p class="card-meal-type">Grooming</p>
+            <a href="" class="shp-btn">Shop Now</a>
+
+
+          </div>
+          <div class="card-price">45% off</div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="./images/a5.jpg" />
+            <a class="button" href="#">Deal !</a>
+
+          </div>
+          <div class="card-text">
+            <p class="card-meal-type">Stationary</p>
+            <a href="" class="shp-btn">Shop Now</a>
+
+
+          </div>
+          <div class="card-price">37% off</div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="./images/a6.jpg" />
+            <a class="button" href="#">Deal !</a>
+
+          </div>
+          <div class="card-text">
+            <p class="card-meal-type">Medicine</p>
+            <a href="" class="shp-btn">Shop Now</a>
+
+
+          </div>
+          <div class="card-price">50% off</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="contact">
+    <div class="parallax">
+      <div class="page-title">App Store</div>
+    </div>
+  </div>
+  <section id="download-app">
+    <!--img----------------------->
+    <div class="app-img">
+      <img alt="app" src="./images/m_app.jpg" width="20px" />
+    </div>
+    <!--text---------------------->
+    <div class="download-app-text">
+      <strong>Download App</strong>
+      <p>Grocery shopping made easier. Now, you don't need to open the website for placing orders. Download the <b>Tazza
+          Grocery Store</b> app from Play Store and App Store to start shopping easily and faster. <br> HAPPY
+        SHOPPING!</b></p>
+      <!--btns------->
+      <div class="download-btns">
+        <a href="https://www.apple.com/in/app-store/"><img alt="" src="./images/appstore-btn.png"></a>
+        <a href="https://play.google.com/store"><img alt="" src="./images/googleplay-btn.png"></a>
+      </div>
+    </div>
+  </section>
+
+  <!--==Clients===============================================-->
+  <section id="clients">
+    <!--heading---------------->
+    <div class="client-heading">
+      <h3>What Our Clients Say</h3>
+    </div>
+    <!--box-container---------->
+    <div class="client-box-container">
+      <!--box------------->
+      <div class="client-box">
+        <!--==profile===-->
+        <div class="client-profile">
+          <!--img--->
+          <img alt="client" src="./images/javinder.jpeg"/>
+          <!--text-->
+          <div class="profile-text">
+            <strong>Jaivendra Singh</strong>
+            <span>Shopkeeper</span>
+          </div>
+        </div>
+        <!--==Rating======-->
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <!--==comments===-->
+        <p>Tazza Grocery Store is the best. CGS never fails to dissapoint me. Grocery shopping has become so easy with
+          Tazza Grocery Store.</p>
+        </p>
+      </div>
+      <!--box------------->
+      <div class="client-box">
+        <!--==profile===-->
+        <div class="client-profile">
+          <!--img--->
+          <img alt="client" src="./images/sofier.jpeg"/>
+          <!--text-->
+          <div class="profile-text">
+            <strong>sofren Kumar</strong>
+            <span> Businessman</span>
+          </div>
+        </div>
+        <!--==Rating======-->
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <!--==comments===-->
+        <p>Tazza Grocery Store is just amazing. I can buy all my groceries from a single place. The groceries are
+          available at very affordable prices. And, the groceries are delivered at the time slot you choose and prefer.
+        </p>
+      </div>
+      <!--box------------->
+      <div class="client-box">
+        <!--==profile===-->
+        <div class="client-profile">
+          <!--img--->
+          <img alt="client" src="./images/eliena.jpeg"/>
+          <!--text-->
+          <div class="profile-text">
+            <strong>Eliana</strong>
+            <span>Marketer</span>
+          </div>
+        </div>
+        <!--==Rating======-->
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <!--==comments===-->
+        <p>At Tazza Grocery Store, you can get fresh fruits and vegetables. And it is not only about fruits or
+          vegetables, you can buy all kinds of stuff here.</p>
+      </div>
+    </div>
+  </section>
+  <!--client-section-end---------->
+
+  <div class="parallax">
+    <div class="page-title">Graph</div>
+  </div>
+
+
+  <div class="grey-bg container-fluid">
+    <section id="minimal-statistics">
+
+      <div class="row">
+        <div class="col-xl-3 col-sm-6 col-12">
+          <div class="card">
+            <div class="card-content">
+              <div class="card-body">
+                <div class="media d-flex">
+                  <div class="media-body text-left">
+                    <h3 class="danger">278</h3>
+                    <span>New Products</span>
+                  </div>
+                  <div class="align-self-center">
+                    <i class="icon-rocket danger font-large-2 float-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-sm-6 col-12">
+          <div class="card">
+            <div class="card-content">
+              <div class="card-body">
+                <div class="media d-flex">
+                  <div class="media-body text-left">
+                    <h3 class="success">456</h3>
+                    <span>New Clients</span>
+                  </div>
+                  <div class="align-self-center">
+                    <i class="icon-user success font-large-2 float-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-sm-6 col-12">
+          <div class="card">
+            <div class="card-content">
+              <div class="card-body">
+                <div class="media d-flex">
+                  <div class="media-body text-left">
+                    <h3 class="warning">4.5 / 5</h3>
+                    <span>Rating</span>
+                  </div>
+                  <div class="align-self-center">
+                    <i class="icon-pie-chart warning font-large-2 float-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-sm-6 col-12">
+          <div class="card">
+            <div class="card-content">
+              <div class="card-body">
+                <div class="media d-flex">
+                  <div class="media-body text-left">
+                    <h3 class="primary">82%</h3>
+                    <span>Happy Customer</span>
+                  </div>
+                  <div class="align-self-center">
+                    <i class="icon-support primary font-large-2 float-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row ">
+        <div class="col-xl-3 col-sm-6 col-12">
+          <div class="card">
+            <div class="card-content">
+              <div class="card-body">
+                <div class="media d-flex">
+                  <div class="media-body text-left">
+                    <h3 class="primary">278</h3>
+                    <span>New Posts</span>
+                  </div>
+                  <div class="align-self-center">
+                    <i class="icon-book-open primary font-large-2 float-right"></i>
+                  </div>
+                </div>
+                <div class="progress mt-1 mb-0" style="height: 7px">
+                  <div class="progress-bar bg-primary" role="progressbar" style="width: 80%" aria-valuenow="80"
+                    aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-sm-6 col-12">
+          <div class="card">
+            <div class="card-content">
+              <div class="card-body">
+                <div class="media d-flex">
+                  <div class="media-body text-left">
+                    <h3 class="warning">156</h3>
+                    <span>New Comments</span>
+                  </div>
+                  <div class="align-self-center">
+                    <i class="icon-bubbles warning font-large-2 float-right"></i>
+                  </div>
+                </div>
+                <div class="progress mt-1 mb-0" style="height: 7px">
+                  <div class="progress-bar bg-warning" role="progressbar" style="width: 35%" aria-valuenow="35"
+                    aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-sm-6 col-12">
+          <div class="card">
+            <div class="card-content">
+              <div class="card-body">
+                <div class="media d-flex">
+                  <div class="media-body text-left">
+                    <h3 class="success">11.3%</h3>
+                    <span>Bounce Rate</span>
+                  </div>
+                  <div class="align-self-center">
+                    <i class="icon-cup success font-large-2 float-right"></i>
+                  </div>
+                </div>
+                <div class="progress mt-1 mb-0" style="height: 7px">
+                  <div class="progress-bar bg-success" role="progressbar" style="width: 11.3%" aria-valuenow="60"
+                    aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-sm-6 col-12">
+          <div class="card">
+            <div class="card-content">
+              <div class="card-body">
+                <div class="media d-flex">
+                  <div class="media-body text-left">
+                    <h3 class="danger">4230</h3>
+                    <span>Total Visits</span>
+                  </div>
+                  <div class="align-self-center">
+                    <i class="icon-direction danger font-large-2 float-right"></i>
+                  </div>
+                </div>
+                <div class="progress mt-1 mb-0" style="height: 7px">
+                  <div class="progress-bar bg-danger" role="progressbar" style="width: 75%" aria-valuenow="40"
+                    aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  </section>
+  </div>
+  <!-- =============================== -->
+
+
+  <!-- Footer-->
+  <footer class="new_footer_area bg_color">
+    <div class="new_footer_top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 fc">
+            <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s" style="
+                  visibility: visible;
+                  animation-delay: 0.8s;
+                  animation-name: fadeInLeft;
+                ">
+              <div class="center-value">
+                <h3 class="f-title f_500 t_color f_size_18">Follow Us</h3>
+                <div class="f_social_icon">
+                  <div class="s-icons">
+                    <a href="#" class="fab fa-facebook"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                    <a href="#" class="fab fa-pinterest"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer_bg">
+        <div class="footer_bg_one"></div>
+        <div class="footer_bg_two"></div>
+      </div>
+    </div>
+    <div class="footer_bottom">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 col-sm-7">
+            <p class="mb-0 f_400">© All Right Are Reserved.</p>
+          </div>
+          <div class="col-lg-6 col-sm-5 text-right">
+            <p>Made with Tazza <i class="icon_heart"></i></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/65ade321ca.js" crossorigin="anonymous"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- Bootstrap JS link -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      setTimeout(function () {
+        document.querySelector("body").classList.add("loaded");
+      }, 10);
+    });
+  </script>
+</body>
+
+</html>
