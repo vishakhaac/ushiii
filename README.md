@@ -19,7 +19,6 @@ It is a frontend-only project and this is **not a clone** of any existing site â
 - Font Awesome Icons
 
 ## Live Video
-
 https://github.com/user-attachments/assets/9bcc106c-e9c3-4606-9c1e-47eccb52e99c
 
 
